@@ -1,6 +1,6 @@
 # Dracula for [Stash](https://stashapp.cc)
 
-> A dark theme for [Stash](https://stashapp.cc).
+> A dark theme for [Stash](https://stashapp.cc) based on the [Dracula](https://draculatheme.com) theme.
 
 ![Screenshot](./screenshot.png)
 
