@@ -1390,48 +1390,48 @@ select.form-control:focus::-ms-value {
 /* ====================<< SELECT >>==================== */
 
 .custom-select {
-    color: red;    /* var(--my_unknown) */	/* #495057 */
+    color: red;    D/* #495057 */
     background: var(--dracula_background) url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center/8px 10px no-repeat;
-    border: 1px solid red;    /* var(--my_unknown) */	/* #ced4da */
+    border: 1px solid red;    /* #ced4da */
 }
 
 .custom-select:focus {
-    border-color: red;    /* var(--my_unknown) */	/* #60b9ef */
+    border-color: red;    /* #60b9ef */
     box-shadow: 0 0 0 .2rem var(--my_25pct_purple);
 }
 
 .custom-select:focus::-ms-value {
-    color: red;    /* var(--my_unknown) */	/* #495057 */
+    color: red;    /* #495057 */
     background-color: var(--dracula_background);	/* #fff */
 }
 
 .custom-select:disabled {
-    color: red;    /* var(--my_unknown) */	/* #6c757d */
-    background-color: red;    /* var(--my_unknown) */	/* #e9ecef */
+    color: red;    /* #6c757d */
+    background-color: red;    /* #e9ecef */
 }
 
 .custom-select:-moz-focusring {
-    text-shadow: 0 0 0 red;    /* var(--my_unknown) */	/* #495057 */
+    text-shadow: 0 0 0 red;    /* #495057 */
 }
 
 .custom-file-input:focus~.custom-file-label {
-    border-color: red;    /* var(--my_unknown) */	/* #60b9ef */
+    border-color: red;    /* #60b9ef */
     box-shadow: 0 0 0 .2rem var(--my_25pct_purple);
 }
 
 .custom-file-input[disabled]~.custom-file-label,.custom-file-input:disabled~.custom-file-label {
-    background-color: red;    /* var(--my_unknown) */	/* #e9ecef */
+    background-color: red;    /* #e9ecef */
 }
 
 .custom-file-label {
-    color: red;    /* var(--my_unknown) */	/* #495057 */
+    color: red;    /* #495057 */
     background-color: var(--dracula_background);	/* #fff */
-    border: 1px solid red;    /* var(--my_unknown) */	/* #ced4da */
+    border: 1px solid red;    /* #ced4da */
 }
 
 .custom-file-label:after {
-    color: red;    /* var(--my_unknown) */	/* #495057 */
-    background-color: red;    /* var(--my_unknown) */	/* #e9ecef */
+    color: red;    /* #495057 */
+    background-color: red;    /* #e9ecef */
 }
 
 
@@ -1452,47 +1452,47 @@ select.form-control:focus::-ms-value {
 }
 
 .custom-range::-webkit-slider-thumb {
-    background-color: var(--dracula_purple);	/* #137cbd */
+    background-color: var(--dracula_purple);
 }
 
 .custom-range::-webkit-slider-thumb:active {
-    background-color: red;    /* var(--my_unknown) */	/* #8fcdf4 */
+    background-color: var(--my_pale_purple);
 }
 
 .custom-range::-webkit-slider-runnable-track {
-    background-color: red;    /* var(--my_unknown) */	/* #dee2e6 */
+    background-color: var(--my_misty_white);
 }
 
 .custom-range::-moz-range-thumb {
-    background-color: var(--dracula_purple);	/* #137cbd */
+    background-color: var(--dracula_purple);
 }
 
 .custom-range::-moz-range-thumb:active {
-    background-color: red;    /* var(--my_unknown) */	/* #8fcdf4 */
+    background-color: var(--my_pale_purple);
 }
 
 .custom-range::-moz-range-track {
-	background-color: red;    /* var(--my_unknown) */	/* #dee2e6 */
+	background-color: var(--my_misty_white);
 }
 
 .custom-range::-ms-thumb {
-    background-color: var(--dracula_purple);	/* #137cbd */
+    background-color: var(--dracula_purple);
 }
 
 .custom-range::-ms-thumb:active {
-    background-color: red;    /* var(--my_unknown) */	/* #8fcdf4 */
+    background-color: var(--my_pale_purple);
 }
 
 .custom-range::-ms-fill-lower {
-    background-color: red;    /* var(--my_unknown) */	/* #dee2e6 */
+    background-color: var(--my_misty_white);
 }
 
 .custom-range::-ms-fill-upper {
-    background-color: red;    /* var(--my_unknown) */	/* #dee2e6 */
+    background-color: var(--my_misty_white);
 }
 
 .custom-range:disabled::-webkit-slider-thumb {
-    background-color: red;    /* var(--my_unknown) */	/* #adb5bd */
+    background-color: var(--my_gloomy_white);
 }
 
 .custom-range:disabled::-webkit-slider-runnable-track {
@@ -1500,7 +1500,7 @@ select.form-control:focus::-ms-value {
 }
 
 .custom-range:disabled::-moz-range-thumb {
-    background-color: red;    /* var(--my_unknown) */	/* #adb5bd */
+    background-color: var(--my_gloomy_white);
 }
 
 .custom-range:disabled::-moz-range-track {
@@ -1508,7 +1508,7 @@ select.form-control:focus::-ms-value {
 }
 
 .custom-range:disabled::-ms-thumb {
-    background-color: red;    /* var(--my_unknown) */	/* #adb5bd */
+    background-color: var(--my_gloomy_white);
 }
 
 
@@ -1533,10 +1533,6 @@ select.form-control:focus::-ms-value {
 .nav-tabs .nav-link.active,.nav-tabs .nav-item.show .nav-link {
 	background-color: var(--dracula_background);
 	border-color: var(--dracula_foreground) var(--dracula_foreground) var(--dracula_background);
-}
-
-.nav-pills .nav-link .btn:hover {
-    border-color: red;
 }
 
 .nav-pills .nav-link.active,.nav-pills .show >.nav-link {
@@ -2897,20 +2893,21 @@ a.minimal:active:not(:disabled),button.minimal:active:not(:disabled) {
 }
 
 .table th,.table td {
-    border-top: 1px solid red;    /* var(--my_unknown) */
+    border-top: 1px solid var(--dracula_selection);
 }
 
 .table thead th {
-    border-bottom: 1px solid red;    /* var(--my_unknown) */
+    border-bottom: 1px solid var(--dracula_selection);
+    background-color: var(--my_intermediate_bg);
 }
 
 .table td {
-    border-color: red;    /* var(--my_unknown) */
+    border-color: var(--dracula_selection);
     padding: .25rem .75rem;
 }
 
 .table-bordered,.table-bordered th,.table-bordered td {
-    border: 1px solid red;    /* var(--my_unknown) */
+    border: 1px solid var(--dracula_selection);
 }
 
 .table-hover tbody tr:hover {
@@ -3397,7 +3394,7 @@ table-list .comma-list.overflowable:hover {
 }
 
 .favourite-data .favorite {
-    color: red;    /* var(--my_unknown) */
+    color: var(--dracula_pink);
 }
 
 
@@ -3489,7 +3486,7 @@ table-list .comma-list.overflowable:hover {
 }
 
 .scene-card.card.fileless {
-    background-color: red;    /* var(--my_unknown) */
+    background-color: var(--ansi_bright_red);
 }
 
 .movie-table .movie-scene-number-header {
@@ -4377,7 +4374,7 @@ div.scene-interactive-status.interactive-status-ready svg {
 /* =================<< BORDER ROW >>================= */
 
 .border-row {
-    background-color: red;    /* var(--my_unknown) */
+    background-color: var(--my_alt_bg);
 }
 
 
