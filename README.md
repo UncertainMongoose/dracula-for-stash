@@ -18,7 +18,7 @@ This theme is maintained by the following person and a bunch of [awesome contrib
 | -------------------------------------------------------------------------------------------------------- |
 | [UncertainMongoose](https://github.com/uncertainmongoose)                                                |
 
-## Community
+## The Dracula Community
 
 - [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
 - [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
