@@ -4,6 +4,8 @@
 
 ![Screenshot](./screenshot.png)
 
+
+
 ## Install
 
 All instructions can be found at [draculatheme.com/stash-app](https://draculatheme.com/stash-app).
