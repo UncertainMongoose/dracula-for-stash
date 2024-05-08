@@ -1,0 +1,6 @@
+name: Dracula Theme
+description: A dark theme for Stash, an organizer for your porn.
+version: 1
+ui:
+  css:
+    - dracula-theme.css 
