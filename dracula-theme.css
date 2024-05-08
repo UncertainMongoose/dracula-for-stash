@@ -4,7 +4,7 @@
 	/* =========<< DRACULA OFFICIAL COLORS >>========= */
 
 	/* Standard */
-	--dracula_background:       #282a36;	/* #fff */
+	--dracula_background:       #282A36;	/* #fff */
 	--dracula_foreground:       #F8F8F2;	
 	--dracula_selection:        #44475A;	/* #334350 */
 	--dracula_comment:          #6272A4;	
@@ -12,13 +12,13 @@
 	--dracula_orange:           #FFB86C;	/* #d9822b */
 	--dracula_yellow:           #f1fa8c;	
 	--dracula_green:            #50FA7B;	/* #0f9960 */
-	--dracula_purple:           #bd93f9;	/* #137cbd */
+	--dracula_purple:           #BD93F9;	/* #137cbd */
 	--dracula_cyan:             #8BE9FD;	
 	--dracula_pink:             #FF79C6;	/* #17a2b8 */
 
 	/* ANSI */
 	--ansi_black:               #21222C;	
-	--ansi_red:                 #ff5555;	
+	--ansi_red:                 #FF5555;	
 	--ansi_green:               #50FA7B;	
 	--ansi_yellow:              #F1FA8C;	
 	--ansi_blue:                #BD93F9;	
@@ -624,7 +624,7 @@ input[type="checkbox"] {
 }
 
 .form-control::placeholder {
-    color: var(--my_disabled);
+    color: var(--my_25pct_white);
 }
 
 .form-control:disabled,.form-control[readonly] {
@@ -1533,13 +1533,6 @@ select.form-control:focus::-ms-value {
 .nav-tabs .nav-link.active,.nav-tabs .nav-item.show .nav-link {
 	background-color: var(--dracula_background);
 	border-color: var(--dracula_foreground) var(--dracula_foreground) var(--dracula_background);
-}
-
-.nav-pills .nav-link.active,.nav-pills .show >.nav-link {
-	background-color: var(--my_10pct_purple);
-	color: var(--dracula_purple);
-    border: 1px solid;
-    border-color: var(--my_50pct_purple);
 }
 
 .navbar-dark .navbar-brand {
@@ -3628,6 +3621,14 @@ table-list .comma-list.overflowable:hover {
 
 /* ==================<< SETTINGS >>================== */
 
+/* Changes the active state of sidebar navigation */
+.nav-pills .nav-link.active,.nav-pills .show >.nav-link {
+	background-color: var(--my_10pct_purple);
+	color: var(--dracula_purple);
+    border: 1px solid;
+    border-color: transparent;
+}
+
 .setting-section:not(:first-child) {
     margin-top: 1.5em
 }
@@ -3649,18 +3650,39 @@ table-list .comma-list.overflowable:hover {
 	font-family: "Roboto Mono", SFMono, monospace;
 }
 
+.setting-group-collapse-button {
+    background-color: transparent;
+}
+
 .setting-section .setting-group .setting-group-collapse-button {
-    color: var(--dracula_foreground);
-    background-color: var(--dracula_selection);
-    border-color: var(--dracula_selection);
+    color:var(--dracula_foreground);
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.setting-section .setting-group .setting-group-collapse-button:hover {
+    color: var(--dracula_purple);
+    background-color: var(--my_10pct_purple);
 }
 
 .setting-section .setting-group:not(:last-child) {
     border-bottom: 1px solid var(--my_superdark);
 }
 
-#tasks-panel .tasks-panel-queue {
-	background-color: var(--dracula_background);
+.setting-section .card .form-control.clearable-text-field[placeholder="Filter..."] {
+	background-color: var(--dracula_selection) !important;
+	border-color: var(--my_50pct_superdark) !important;
+}
+
+.setting-section .btn-secondary {
+    color: var(--dracula_background);
+    background-color: var(--dracula_purple);
+}
+
+.setting-section .btn-secondary:hover {
+    color: var(--dracula_purple);
+    background-color: var(--my_10pct_purple);
+    border-color: var(--dracula_purple);
 }
 
 
@@ -3670,11 +3692,6 @@ table-list .comma-list.overflowable:hover {
 
 #settings-menu-container {
     margin-top: 10px;
-}
-
-.setting-section .card .form-control.clearable-text-field[placeholder="Filter..."] {
-	background-color: var(--dracula_selection) !important;
-	border-color: var(--vsc_text_field_borderr) !important;
 }
 
 #settings-container .package-manager-table-container {
@@ -3707,6 +3724,10 @@ table-list .comma-list.overflowable:hover {
 
 #settings-container .table tbody:last-child {
 	margin-bottom: 0.5em;
+}
+
+#tasks-panel .tasks-panel-queue {
+	background-color: var(--dracula_background);
 }
 
 
