@@ -1,6 +1,6 @@
 # Dracula for [Stash](https://stashapp.cc)
 
-> A dark theme for [Stash](https://stashapp.cc). An organizer for your porn.
+> A dark theme for [Stash](https://stashapp.cc).
 
 ![Screenshot](./screenshot.png)
 
