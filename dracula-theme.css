@@ -1681,7 +1681,7 @@ select.form-control:focus::-ms-value {
 /* =====================<< CARD >>==================== */
 
 .card {
-	background-color: var(--my_alt_bg);
+	background-color: var(--dracula_selection);
 	border: 1px solid var(--my_10pct_white);
 	border-radius: 5px;
 }
