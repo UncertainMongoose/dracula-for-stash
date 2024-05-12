@@ -57,6 +57,10 @@
 
     /* Translucent */                       /* #region */
 	
+    /* .05 Opacity */
+	--my_05pct_purple:          rgba(189, 147, 249, .05);
+
+
     /* .10 Opacity */
     --my_10pct_superdark:       rgba(028, 031, 043, .10);
     --my_10pct_comment:         rgba(098, 114, 164, .10);
@@ -214,8 +218,50 @@ button#themeSwitchPlugin.dropdown-toggle.minimal.d-flex.align-items-center.h-100
     border-color: transparent;
 }
 
-/* ==================================================== */
 
+
+
+/* ================<< QX SCENE CARD >>================ */
+
+/* Give studio name and date each 50% of width */
+.scene-card .card-section .footer span {
+    width: 50%
+}
+
+/* Update female performer name color */
+.scene-card .card-section .performers .list a.FEMALE {
+    color: var(--dracula_pink) !important;
+}
+
+/* Update non-binary performer name color */
+.scene-card .card-section .performers .list a.NON_BINARY {
+    color: var(--my_misty_white) !important;
+}
+
+.scene-card .card-section a .card-section-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.4em;
+    height: auto;
+}
+
+.scene-card .card-section .footer {
+    margin-bottom: .75rem;
+}
+
+.scene-card .card-section .footer span.studio > a {
+    color: var(--my_pale_purple) !important;
+}
+
+/* Hide views section */
+.scene-card .card-section .footer span.views {
+    display: none !important;
+}
+
+/* Recolor date */
+.scene-card .card-section .footer span.date {
+    color: var(--my_overcast_white);
+}
 
 
 
@@ -264,7 +310,7 @@ h6,.h6 {
 }
 
 hr {
-    border-top: 1px solid var(--my_10pct_superdark);
+    border-top: 1px solid var(--my_10pct_white);
 }
 
 caption {
@@ -1712,7 +1758,20 @@ select.form-control:focus::-ms-value {
 	border-top: 1px solid var(--my_25pct_purple);
 }
 
+/* Reposition the studio logo */
+/* .scene-card.zoom-1.grid-card.card .studio-overlay {
+    position: absolute;
+    transform: translateX(180px);
+    top: 220px;
+    left: -8px;
+} */
 
+/* Remove date/description */
+/* .scene-card__date,
+.scene-specs-overlay,
+.scene-card__description {
+  display: none !important;
+} */
 
 
 
@@ -2891,7 +2950,7 @@ a.minimal:active:not(:disabled),button.minimal:active:not(:disabled) {
 /* ====================<< TABLE >>==================== */
 
 .table-striped tr:nth-child(odd) td {
-    background: var(--my_10pct_comment);
+    background: var(--my_05pct_purple);
 }
 
 .table {
@@ -3366,10 +3425,9 @@ table-list .comma-list.overflowable:hover {
 }
 
 
-
-/* #performer-page .birthdate,#performer-page .height-imperial {
-	margin-left: 4px;
-} */
+#performer-page .birthdate {
+	margin-left: 3px
+}
 
 .performer-table .weight-imperial,.performer-table .penis-length-imperial,.performer-disambiguation {
     color: var(--my_misty_white);
@@ -3505,6 +3563,11 @@ table-list .comma-list.overflowable:hover {
 
 
 /* ==================<< SCENE CARD >>================== */
+
+.scene-card {
+    font-family: "Lato", "Inter", Helvetica, Arial, sans-serif, sans-serif;
+    font-size: 14px;
+}
 
 .scene-specs-overlay, .scene-interactive-speed-overlay {
     color: var(--dracula_foreground);
