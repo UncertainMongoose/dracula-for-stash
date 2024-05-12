@@ -1716,7 +1716,10 @@ select.form-control:focus::-ms-value {
 }
 
 
-/* Toolbar */
+
+
+/* ===================<< TOOLBAR >>================== */
+
 .btn-toolbar .input-group {
 	margin-bottom: 0.5em;
 }
@@ -1726,12 +1729,21 @@ select.form-control:focus::-ms-value {
 
 }
 
-.btn-toolbar .btn, .btn-toolbar .form-control {
+.btn-toolbar .btn:not(.btn-danger), .btn-toolbar .form-control {
     background-color: var(--dracula_selection);
 }
 
-.btn-toolbar .btn:hover, .btn-toolbar .form-control:hover {
+.btn-toolbar .btn:not(.btn-danger):hover, .btn-toolbar .form-control:hover {
     background-color: var(--my_50pct_selection);
+}
+
+/* Recolor trash button in toolbar */
+.btn-danger svg {
+    color: var(--dracula_selection);
+}
+
+.btn-danger:hover {
+    color: var(--dracula_red);
 }
 
 
