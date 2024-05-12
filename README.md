@@ -6,17 +6,24 @@
 
 &nbsp;
 
-## Install
+## Installation
 
-TBA.
+1. Navigate to Settings > Plugins inside Stash.
+2. In the **Available Sources** section, click `Add Source`.
+3. Enter "Dracula Theme" in the **Name** field
+4. Paste the following link in the **Source URL** field: https://uncertainmongoose.github.io/dracula-for-stash/index.yml
+
+&nbsp;
 
 ## Team
 
 This theme is maintained by the following person and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
 
-| [![Zeno Rocha](https://github.com/uncertainmongoose.png?size=100)](https://github.com/uncertainmongoose) |
+| [![UncertainMongoose](https://github.com/uncertainmongoose.png?size=100)](https://github.com/uncertainmongoose) |
 | -------------------------------------------------------------------------------------------------------- |
 | [UncertainMongoose](https://github.com/uncertainmongoose)                                                |
+
+&nbsp;
 
 ## The Dracula Community
 
