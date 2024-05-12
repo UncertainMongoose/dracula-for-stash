@@ -176,6 +176,49 @@
 
 
 
+/* ==============<< [NEW] BUTTON FIXES >>============== */
+
+/* General recolor */
+.top-nav .mr-2 .btn {  
+    font-weight: 700;
+	text-decoration: none;
+	color: var(--my_alt_bg);
+	
+    border-color: var(--dracula_purple);
+	background-color: var(--dracula_purple);
+}
+
+/* Hover state */
+.top-nav .mr-2 .btn:hover {  
+	color: var(--dracula_purple);
+	background-color: var(--my_10pct_purple);
+
+	border: 1px solid;
+	border-color: var(--dracula_purple);
+
+    text-decoration: none;
+}
+
+/* Remove on-hover underline */
+.top-nav .mr-2 a:hover {  
+    text-decoration: none;
+}
+
+/* Make theme switcher match other buttons, not [New] */
+button#themeSwitchPlugin.dropdown-toggle.minimal.d-flex.align-items-center.h-100.btn.btn-primary {
+    background: transparent;
+    border-color: transparent;
+}
+button#themeSwitchPlugin.dropdown-toggle.minimal.d-flex.align-items-center.h-100.btn.btn-primary:hover {
+    background: var(--my_10pct_purple);
+    border-color: transparent;
+}
+
+/* ==================================================== */
+
+
+
+
 
 /* ====================<< GENERAL >>==================== */
 
@@ -266,6 +309,9 @@ pre {
     color: var(--dracula_foreground);
 }
 
+/* ==================================================== */
+
+
 
 
 
@@ -311,11 +357,6 @@ input[type="checkbox"] {
 
 .form-label {
     color: var(--my_overcast_white);
-}
-
-.detail-item-title {
-	color: var(--dracula_comment);
-	font-weight: 400;
 }
 
 
@@ -808,7 +849,11 @@ select.form-control:focus::-ms-value {
 
 
 
-/* ================<< COLORED BUTTONS >>================ */
+/* ====================<< BUTTONS >>==================== */
+
+.btn {
+    border-radius: .35rem;
+}
 
 .btn-primary {
 	color: var(--dracula_background);
@@ -825,7 +870,7 @@ select.form-control:focus::-ms-value {
 .btn-primary:focus,.btn-primary.focus {
 	color: var(--dracula_purple);
 	background-color: var(--my_10pct_purple);
-	border-color: var(--dracula_purple);
+	border-color: var(--transparent);
 	box-shadow: 0 0 0 0.2rem var(--my_50pct_purple);
 }
 
@@ -895,7 +940,7 @@ select.form-control:focus::-ms-value {
 .btn-success:focus,.btn-success.focus {
     color: var(--dracula_green);
     background-color: var(--my_10pct_green);
-    border-color: var(--dracula_green);
+    border-color: transparent;
     box-shadow: 0 0 0 .2rem var(--my_50pct_green);
 }
 
@@ -930,7 +975,7 @@ select.form-control:focus::-ms-value {
 .btn-info:focus,.btn-info.focus {
     color: var(--dracula_pink);
     background-color: var(--my_10pct_pink);
-    border-color: var(--dracula_pink);
+    border-color: transparent;
     box-shadow: 0 0 0 .2rem var(--my_50pct_pink);
 }
 
@@ -965,7 +1010,7 @@ select.form-control:focus::-ms-value {
 .btn-warning:focus,.btn-warning.focus {
     color: var(--dracula_orange);
     background-color: var(--my_10pct_orange);
-    border-color: var(--dracula_orange);
+    border-color: transparent;
     box-shadow: 0 0 0 .2rem var(--my_50pct_orange);
 }
 
@@ -1000,7 +1045,7 @@ select.form-control:focus::-ms-value {
 .btn-danger:focus,.btn-danger.focus {
     color: var(--dracula_red);
 	background-color: var(--my_10pct_red);
-	border-color: var(--dracula_red);
+    border-color: transparent;
 	box-shadow: 0 0 0 0.2rem var(--my_50pct_red);
 }
 
@@ -1035,7 +1080,7 @@ select.form-control:focus::-ms-value {
 .btn-light:focus,.btn-light.focus {
     color: var(--dracula_foreground);
     background-color: var(--my_10pct_white);
-    border-color: var(--dracula_foreground);
+    border-color: transparent;
     box-shadow: 0 0 0 .2rem var(--my_50pct_white)
 }
 
@@ -1390,7 +1435,7 @@ select.form-control:focus::-ms-value {
 /* ====================<< SELECT >>==================== */
 
 .custom-select {
-    color: red;    D/* #495057 */
+    color: red;    /* #495057 */
     background: var(--dracula_background) url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right .75rem center/8px 10px no-repeat;
     border: 1px solid red;    /* #ced4da */
 }
@@ -1624,32 +1669,6 @@ select.form-control:focus::-ms-value {
     margin-right: .25rem;
 }
 
-/* Fix broken [New] button colors */
-.top-nav .mr-2 .btn {  
-    font-weight: 700;
-	text-decoration: none;
-	color: var(--my_alt_bg);
-	
-    border-color: var(--dracula_purple);
-	background-color: var(--dracula_purple);
-}
-
-/* [New] button hover */
-.top-nav .mr-2 .btn:hover {  
-	color: var(--dracula_purple);
-	background-color: var(--my_10pct_purple);
-
-	border: 1px solid;
-	border-color: var(--dracula_purple);
-
-    text-decoration: none;
-}
-
-/* Remove the hover underline from the [New] button */
-.top-nav .mr-2 a:hover {  
-    text-decoration: none;
-}
-
 
 /* Toolbar */
 .btn-toolbar .input-group {
@@ -1668,12 +1687,6 @@ select.form-control:focus::-ms-value {
 .btn-toolbar .btn:hover, .btn-toolbar .form-control:hover {
     background-color: var(--my_50pct_selection);
 }
-
-
-
-
-
-
 
 
 
@@ -1698,6 +1711,8 @@ select.form-control:focus::-ms-value {
     background-color: var(--my_alt_bg);
 	border-top: 1px solid var(--my_25pct_purple);
 }
+
+
 
 
 
@@ -2350,15 +2365,14 @@ a.badge-dark:focus,a.badge-dark.focus {
 /* ====================<< MODAL >>==================== */
 
 .modal-header,.modal-body,.modal-footer {
-    font-weight: 700;
-    background-color: var(--dracula_background);
+    background-color: var(--dracula_selection);
     color: var(--dracula_foreground);
 }
 
 .modal-header {
     padding: 1rem;
     font-weight: 700;
-    border-bottom: 1px solid var(--dracula_foreground);
+    border-bottom: 1px solid var(--my_10pct_white);
 }
 
 .modal-header .close {
@@ -2372,8 +2386,6 @@ a.badge-dark:focus,a.badge-dark.focus {
 
 .modal-body {
     padding: 1rem;
-    border-top-left-radius: .4rem;
-    border-top-right-radius: .4rem;
 }
 
 .modal-footer {
@@ -2474,8 +2486,9 @@ a.badge-dark:focus,a.badge-dark.focus {
 .popover {
     top: 0;
     left: 0;
-    background-color: var(--dracula_selection);
-    border: 1px solid rgba(0,0,0,.2);
+    background-color: var(--my_alt_bg);
+    border: 1px solid rgba(--my_superdark);
+    box-shadow: inset 0 0 0 .1rem var(--my_25pct_superdark);
 }
 
 .popover .arrow {
@@ -2823,7 +2836,7 @@ a.text-dark:hover,a.text-dark:focus {
 
 a.minimal,button.minimal {
     border: 1px solid;
-	border-color: var(--my_alt_bg);
+	border-color: transparent;
     color: var(--dracula_foreground);
 }
 
@@ -2832,7 +2845,7 @@ a.minimal:hover:not(:disabled),button.minimal:hover:not(:disabled) {
 	background: var(--my_10pct_purple);
 
 	border: 1px solid;
-	border-color: var(--dracula_purple);
+    border-color: transparent;
 }
 
 a.minimal:active:not(:disabled),button.minimal:active:not(:disabled) {
@@ -3335,16 +3348,53 @@ table-list .comma-list.overflowable:hover {
 	margin-top: 10px;
 }
 
-#performer-page .birthdate,#performer-page .height-imperial {
-	margin-left: 4px;
+.performer-height .height-imperial:before {
+    content: ""
 }
 
-.performer-table .height-imperial,.performer-table .weight-imperial,.performer-table .penis-length-imperial,.performer-disambiguation {
+.performer-height .height-imperial:after {
+    content: " \2219";
+}
+
+.detail-item-value .height-imperial {
+    color: var(--dracula_foreground);
+    opacity: 1;
+}
+
+.detail-item-value .birthdate,.detail-item-value .height-metric,.detail-item-value .penis-length-imperial,.detail-item-value .weight-imperial {
+    opacity: .65;
+}
+
+
+
+/* #performer-page .birthdate,#performer-page .height-imperial {
+	margin-left: 4px;
+} */
+
+.performer-table .weight-imperial,.performer-table .penis-length-imperial,.performer-disambiguation {
     color: var(--my_misty_white);
 }
 
 .performer-table .age-data span {
     border-bottom: 1px dotted var(--dracula_foreground);
+}
+
+.performer-height {
+    display: flex;
+    gap: .4rem;
+}
+
+.height-imperial { 
+    order: -1;
+    opacity: 1;
+}
+
+.height-imperial::before {
+    content: '';
+}
+
+.height-imperial::after {
+    content: " \2219";
 }
 
 
@@ -4338,7 +4388,8 @@ div.scene-interactive-status.interactive-status-ready svg {
 }
 
 .detail-item-title {
-    color: var(--my_smoke_white);
+	color: var(--dracula_comment);
+	font-weight: 600;
 }
 
 @media (min-width: 1200px) {
@@ -4348,8 +4399,7 @@ div.scene-interactive-status.interactive-status-ready svg {
 }
 
 .detail-header-image .btn,.detail-header-image .btn-primary {
-    color: var(--my_superdark);
-    background-color: var(--my_superdark);
+    background-color: transparent;
 }
 
 
