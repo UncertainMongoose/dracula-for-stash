@@ -31,7 +31,7 @@ This theme is maintained by the following person and a bunch of [awesome contrib
 
 ## To Do
 
-- [ ] Edit tag page: fix parent/sub tag styling
+- [ ] Fix broken tag styling in tagger/edit views
 - [ ] Improve text field clear button styling
 
 &nbsp;
