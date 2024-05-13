@@ -1,0 +1,8 @@
+- id: stashDraculaTheme
+  name: Stash Dracula Theme
+  metadata:
+    description: Dracula Theme for Stash by UncertainMongoose (Yoyo128)
+  version: 0.1
+  date: 5/12/2025
+  path: dracula-theme.zip
+  sha256: Attempt to pull your plugin via Stash for the first time and it will spit out the expected sha256 that you can then paste here.

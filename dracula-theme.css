@@ -4,17 +4,17 @@
 	/* =========<< DRACULA OFFICIAL COLORS >>========= */
 
 	/* Standard */
-	--dracula_background:       #282A36;	/* #fff */
+	--dracula_background:       #282A36;
 	--dracula_foreground:       #F8F8F2;	
-	--dracula_selection:        #44475A;	/* #334350 */
+	--dracula_selection:        #44475A;
 	--dracula_comment:          #6272A4;	
-	--dracula_red:              #FF5555;	/* #db3737 */
-	--dracula_orange:           #FFB86C;	/* #d9822b */
+	--dracula_red:              #FF5555;
+	--dracula_orange:           #FFB86C;
 	--dracula_yellow:           #f1fa8c;	
-	--dracula_green:            #50FA7B;	/* #0f9960 */
-	--dracula_purple:           #BD93F9;	/* #137cbd */
+	--dracula_green:            #50FA7B;
+	--dracula_purple:           #BD93F9;
 	--dracula_cyan:             #8BE9FD;	
-	--dracula_pink:             #FF79C6;	/* #17a2b8 */
+	--dracula_pink:             #FF79C6;
 
 	/* ANSI */
 	--ansi_black:               #21222C;	
@@ -4806,4 +4806,3 @@ div.thumbnail-section
 	stroke: var(--ansi_red);
 	stroke-width: 15;
 }
-
