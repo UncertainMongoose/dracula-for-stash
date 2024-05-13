@@ -4210,6 +4210,19 @@ div.react-datepicker .react-datepicker__year-dropdown,div.react-datepicker .reac
 }
 
 
+/* Recolor tag [X] button hover */
+.css-1h0qd4:hover {
+    background-color: var(--my_10pct_red);
+    color: var(--dracula_red);
+}
+
+/* Fix broken tag colors in edit views */
+.css-9jq23d {
+    border-radius: .25rem;
+    color: var(--dracula_foreground);
+}
+
+
 
 
 /* ====================<< WALL >>==================== */
