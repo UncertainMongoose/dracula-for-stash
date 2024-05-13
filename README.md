@@ -36,3 +36,10 @@ This theme is maintained by the following person and a bunch of [awesome contrib
 ## License
 
 [MIT License](./LICENSE)
+
+&nbsp;
+
+## To Do
+
+- [ ] Edit tag page: fix parent/sub tag styling
+- [ ] Improve text field clear button styling
