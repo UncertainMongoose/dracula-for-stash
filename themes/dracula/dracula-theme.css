@@ -232,27 +232,36 @@ button#themeSwitchPlugin.dropdown-toggle.minimal.d-flex.align-items-center.h-100
 
 /* Update female performer name color */
 .scene-card .card-section .performers .list a.FEMALE {
-    color: var(--pink) !important;
+    color: var(--foreground) !important;
 }
 
 /* Update non-binary performer name color */
 .scene-card .card-section .performers .list a.NON_BINARY {
-    color: var(--misty_white) !important;
+    color: var(--pale_purple) !important;
 }
 
 .scene-card .card-section a .card-section-title {
-    font-weight: 600 !important;
-    font-size: 16px !important;
-    line-height: 1.4em !important;
+    color: var(--pale_purple) !important;
+    font-size: 1.5em !important;
+    font-weight: 700 !important;
     height: auto !important;
+    line-height: 1.4em !important;
+    margin-bottom: 1.5rem !important;
+    margin-top: 0.2rem !important;
+}
+
+.scene-card .card-section .performers .list a {
+    font-weight: 500 !important;
+    margin-right: 1.5em !important;
 }
 
 .scene-card .card-section .footer {
     margin-bottom: .75rem !important;
 }
 
+/* Recolor studio name */
 .scene-card .card-section .footer span.studio > a {
-    color: var(--pale_purple) !important;
+    color: var(--overcast_white) !important;
 }
 
 /* Hide views section */
@@ -4034,6 +4043,7 @@ button.collapse-button.btn-primary:not(:disabled):not(.disabled):hover,button.co
 }
 
 .grid-card a .card-section-title {
+    color: var(--foreground);
 	margin-top: 0.3em;
 	margin-bottom: 0.5em;
 }
