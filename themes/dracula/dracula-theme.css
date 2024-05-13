@@ -4233,27 +4233,6 @@ div.react-datepicker .react-datepicker__year-dropdown,div.react-datepicker .reac
 }
 
 
-/* Recolor tag labels in edit/tagger views */
-.react-select__multi-value__label {
-    background: var(--tag_background);
-    color: var(--foreground);
-}
-
-/* Recolor tag [X] button in edit/tagger views */
-div.react-select__control .react-select__multi-value,
-.react-select__multi-value__remove {
-    background-color: var(--tag_background);
-	color: var(--gloomy_white);
-	font-weight: 500;
-}
-
-/* Recolor tag [X] button hover in edit/tagger views */
-.react-select__multi-value__remove:hover {
-    background-color: var(--10pct_red);
-    color: var(--red);
-}
-
-
 
 
 /* ====================<< WALL >>==================== */
