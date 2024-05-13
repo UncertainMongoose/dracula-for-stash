@@ -12,6 +12,10 @@
 2. In the **Available Sources** section, click `Add Source`.
 3. Enter "Dracula Theme" in the **Name** field
 4. Paste the following link in the **Source URL** field: https://uncertainmongoose.github.io/dracula-for-stash/index.yml
+5. Open the newly created plugin dropdown, check the box next to the theme, and click `Install`
+6. Disable any active themes
+7. Reload the browser window
+8. Done 🎉
 
 &nbsp;
 
