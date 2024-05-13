@@ -225,7 +225,7 @@ button#themeSwitchPlugin.dropdown-toggle.minimal.d-flex.align-items-center.h-100
 
 /* Give studio name and date each 50% of width */
 .scene-card .card-section .footer span {
-    width: 50%
+    width: 50%  !important;
 }
 
 /* Update female performer name color */
@@ -239,14 +239,14 @@ button#themeSwitchPlugin.dropdown-toggle.minimal.d-flex.align-items-center.h-100
 }
 
 .scene-card .card-section a .card-section-title {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.4em;
-    height: auto;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 1.4em !important;
+    height: auto !important;
 }
 
 .scene-card .card-section .footer {
-    margin-bottom: .75rem;
+    margin-bottom: .75rem !important;
 }
 
 .scene-card .card-section .footer span.studio > a {
@@ -260,7 +260,7 @@ button#themeSwitchPlugin.dropdown-toggle.minimal.d-flex.align-items-center.h-100
 
 /* Recolor date */
 .scene-card .card-section .footer span.date {
-    color: var(--my_overcast_white);
+    color: var(--my_overcast_white) !important;
 }
 
 
