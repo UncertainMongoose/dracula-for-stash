@@ -272,32 +272,32 @@ button#themeSwitchPlugin.dropdown-toggle.minimal.d-flex.align-items-center.h-100
 
 /* Adjust tag bodies in edit/tagger views */
 div.react-select__control .react-select__multi-value {
-    background-color: var(--my_tag_background) !important;
+    background-color: var(--tag_background) !important;
     border-radius: .3rem !important;
-	color: var(--my_gloomy_white) !important;
+	color: var(--gloomy_white) !important;
 	font-weight: 500 !important;
 }
 
 /* Adjust tag labels in edit/tagger views */
 .react-select__multi-value__label {
-    background: var(--my_tag_background) !important;
+    background-color: var(--tag_background) !important;
     border-radius: .3rem !important;
-    color: var(--dracula_foreground) !important;
+    color: var(--foreground) !important;
     padding: 3.5px 4.5px 4.5px 7px !important;
 }
 
 /* Recolor tag [X] button in edit/tagger views */
 .react-select__multi-value__remove {
-    background-color: var(--my_tag_background) !important;
+    background-color: var(--tag_background) !important;
     border-radius: .3rem !important;
-	color: var(--my_gloomy_white) !important;
+	color: var(--gloomy_white) !important;
 	font-weight: 500 !important;
 }
 
 /* Recolor tag [X] button hover in edit/tagger views */
 .react-select__multi-value__remove:hover {
-    background-color: var(--my_10pct_red) !important;
-    color: var(--dracula_red) !important;
+    background-color: var(--10pct_red) !important;
+    color: var(--red) !important;
 }
 
 
