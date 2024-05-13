@@ -3310,6 +3310,39 @@ input[type=range]:focus::-ms-fill-upper {
     background-color: var(--dracula_selection);
 }
 
+/* Text field clear button fixes */
+button.query-text-field-clear.btn.btn-secondary {
+    background-color: transparent;
+    border-color: transparent;
+}
+button.query-text-field-clear.btn.btn-secondary:hover {
+    background-color: transparent;
+    color: var(--dracula_red);
+    border-color: transparent;
+}
+button.query-text-field-clear.btn.btn-secondary:focus,
+button.query-text-field-clear.btn.btn-secondary.focus {
+    color: var(--dracula_red);
+    background-color: transparent;
+	border-color: transparent;
+    box-shadow: none;
+}
+button.query-text-field-clear.btn.btn-secondary.disabled,
+button.query-text-field-clear.btn.btn-secondary:disabled {
+	color: var(--dracula_foreground);
+	background-color: transparent;
+	border-color: transparent;
+}
+button.query-text-field-clear.btn.btn-secondary:not(:disabled):not(.disabled):active,
+button.query-text-field-clear.btn.btn-secondary:not(:disabled):not(.disabled).active {
+	color: var(--dracula_red);
+	background-color: transparent;
+	border-color: transparent;
+}
+button.query-text-field-clear.btn.btn-secondary:not(:disabled):not(.disabled):active:focus,
+button.query-text-field-clear.btn.btn-secondary:not(:disabled):not(.disabled).active:focus {
+    box-shadow: none;
+}
 
 
 
