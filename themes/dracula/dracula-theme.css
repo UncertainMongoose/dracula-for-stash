@@ -2508,6 +2508,10 @@ a.badge-dark:focus,a.badge-dark.focus {
     font-weight: 600;
 }
 
+/* Fix modal text-input and dropdown fills */
+.modal-content .input-control {
+    background-color: var(--alt_bg);
+}
 
 
 
@@ -4101,12 +4105,17 @@ button.collapse-button.btn-primary:not(:disabled):not(.disabled):hover,button.co
 /* ==================<< BULK UPDATE >>================== */
 
 .bulk-update-text-input button {
-    background-color: var(--selection);
-    color: var(--misty_white);
+    background-color: transparent;
+    color: var(--overcast_white);
 }
 
-.bulk-update-text-input button:hover,.bulk-update-text-input button:focus,.bulk-update-text-input button:active,.bulk-update-text-input button:not(:disabled):not(.disabled):active,.bulk-update-text-input button:not(:disabled):not(.disabled):active:focus {
-    background-color: var(--selection);
+.bulk-update-text-input button:hover,
+.bulk-update-text-input button:focus,
+.bulk-update-text-input button:active,
+.bulk-update-text-input button:not(:disabled):not(.disabled):active,
+.bulk-update-text-input button:not(:disabled):not(.disabled):active:focus {
+    background-color: transparent;
+    color: var(--foreground);
 }
 
 
