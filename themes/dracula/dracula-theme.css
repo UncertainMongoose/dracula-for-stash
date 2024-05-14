@@ -2513,6 +2513,11 @@ a.badge-dark:focus,a.badge-dark.focus {
     background-color: var(--alt_bg);
 }
 
+/* Fix Edit Filter tag search field color */
+.card-body .clearable-text-field {
+    background-color: var(--alt_bg);
+}
+
 
 
 /* ====================<< TOOLTIP >>==================== */
