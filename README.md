@@ -31,8 +31,8 @@ This theme is maintained by the following person and a bunch of [awesome contrib
 
 ## To Do
 
-- [ ] Fix broken tag styling in tagger/edit views
-- [ ] Improve text field clear button styling
+- [X] Fix broken tag styling in tagger/edit views
+- [X] Improve text field clear button styling
 
 &nbsp;
 
