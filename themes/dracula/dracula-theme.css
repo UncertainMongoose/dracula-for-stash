@@ -436,7 +436,7 @@ input[type="checkbox"] {
 }
 
 .form-label {
-    color: var(--overcast_white);
+    color: var(--comment);
 }
 
 
