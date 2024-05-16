@@ -4873,6 +4873,6 @@ div.thumbnail-section
 
 .tag-card .card-popovers .btn {
 	text-shadow: 1px 1px 1px var(--superdark);
-	stroke: var(--ansi_red);
+	stroke: var(--background);
 	stroke-width: 15;
 }
