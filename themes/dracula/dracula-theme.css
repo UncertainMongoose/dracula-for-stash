@@ -4253,12 +4253,12 @@ div.react-datepicker .react-datepicker__year-dropdown,div.react-datepicker .reac
 	padding: 0;
 }
 
+/* "Has parent" icon on parent tag badge */
 .tag-item .icon-wrapper {
-    color: var(--alt_bg);
+    color: var(--foreground);
 }
-
 .tag-item .tag-icon {
-    color: var(--alt_bg);
+    color: var(--foreground);
 }
 
 .tag-item {
