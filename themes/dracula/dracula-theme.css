@@ -374,11 +374,9 @@ mark,.mark {
 
 code,.code {
 	color: var(--pink);
-    font-family: Roboto Mono, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace;
 }
 
 pre,code,kbd,samp {
-    font-family: Roboto Mono, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace;
     font-size: 1em
 }
 
