@@ -3541,6 +3541,11 @@ table-list .comma-list.overflowable:hover {
     content: " \2219";
 }
 
+/* Add space below performer tag list element */
+.detail-item.tags {
+    margin-bottom: 1.2rem;
+}
+
 
 
 
