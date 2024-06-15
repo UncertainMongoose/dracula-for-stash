@@ -2426,8 +2426,7 @@ a.badge-dark:focus,a.badge-dark.focus {
     max-width: 350px;
     opacity: .9;
     position: fixed;
-    right: 2rem;
-    top: 4rem;
+    right: 2rem
     transition: right .5s;
     z-index: 1051
 }
