@@ -2449,11 +2449,11 @@ a.badge-dark:focus,a.badge-dark.focus {
 }
 
 .toast-container .toast-header {
-    color: var(--foreground);
+    color: var(--background);
 }
 
 .toast-container .toast-header .close,.toast-container .toast-header .expand-error-button {
-    color: var(--foreground);
+    color: var(--background);
     text-shadow: none
 }
 
