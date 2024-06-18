@@ -320,9 +320,10 @@ body {
     	padding: 4rem 0 0;
 }
 
-@media (max-width: 575.98px) and (orientation: portrait)
-body {
-	padding: 0 0 5rem 0;
+@media (max-width: 575.98px) and (orientation: portrait) {
+    body {
+        padding: 0 0 5rem 0 !important; 
+    }
 }
 
 .text-white {
