@@ -317,7 +317,13 @@ div.react-select__control .react-select__multi-value {
 body {
 	background-color: var(--background);
 	color: var(--foreground);
-    padding: 4rem 0 0;
+    	padding: 4rem 0 0;
+}
+
+@media (max-width: 575.98px) and (orientation: portrait) {
+    body {
+        padding: 0 0 5rem 0 !important; 
+    }
 }
 
 .text-white {
@@ -2426,8 +2432,7 @@ a.badge-dark:focus,a.badge-dark.focus {
     max-width: 350px;
     opacity: .9;
     position: fixed;
-    right: 2rem;
-    top: 4rem;
+    right: 2rem
     transition: right .5s;
     z-index: 1051
 }
@@ -2449,11 +2454,11 @@ a.badge-dark:focus,a.badge-dark.focus {
 }
 
 .toast-container .toast-header {
-    color: var(--foreground);
+    color: var(--background);
 }
 
 .toast-container .toast-header .close,.toast-container .toast-header .expand-error-button {
-    color: var(--foreground);
+    color: var(--background);
     text-shadow: none
 }
 
