@@ -3737,6 +3737,15 @@ table-list .comma-list.overflowable:hover {
 }
 
 
+/* Make markers display in a single column */
+@media (min-width: 1200px) {
+    .primary-tag .col-xl-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
 
 
 /* ================<< QUEUE VIEWER >>================ */
