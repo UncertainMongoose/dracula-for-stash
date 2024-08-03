@@ -21,7 +21,7 @@
 
 ## Team
 
-This theme is maintained by the following person and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
+This theme was created by the following person based on the work of a bunch of all the [awesome Dracula Theme contributors](https://github.com/dracula/foobar/graphs/contributors).
 
 | [![UncertainMongoose](https://github.com/uncertainmongoose.png?size=100)](https://github.com/uncertainmongoose) |
 | -------------------------------------------------------------------------------------------------------- |
