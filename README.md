@@ -29,7 +29,7 @@ This theme was created by the following person based on the work of a bunch of a
 
 &nbsp;
 
-## To Do
+## To-Do List
 
 - [ ] Increase width of tagger video description tooltip
 - [ ] Bring Tag favorites button to front of view
