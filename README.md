@@ -33,7 +33,7 @@ This theme was created by the following person based on the work of a bunch of a
 
 - [ ] Increase width of tagger video description tooltip
 - [ ] Bring Tag favorites button to front of view
-- [ ] Update README UI preview screenshot
+- [X] Update README UI preview screenshot
 - [X] Fix broken tag styling in tagger/edit views
 - [X] Improve text field clear button styling
 
