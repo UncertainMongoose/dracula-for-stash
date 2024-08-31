@@ -34,7 +34,7 @@ This theme was created by the following person based on the work of a bunch of a
 - [ ] **Tag Grid:** Make the `Toggle Favorite` (heart) button the top "layer"
 - [ ] **Tag Page:** Increase space between a Tag's description and parent/child tag lists
 - [ ] **Tag Page:** Decrease space between paragraph and ordered/unordered lists
-- [X] Increase width of tagger video description tooltip
+- [X] **Tagger:** Increase width of tagger video description tooltip
 - [X] **Repo:** Update README UI preview screenshot
 - [X] **Tagger:** Fix broken tag styling in tagger/edit views
 - [X] **Text Fields:** Improve text field clear button styling
