@@ -2432,9 +2432,9 @@ a.badge-dark:focus,a.badge-dark.focus {
     max-width: 350px;
     opacity: .9;
     position: fixed;
-    right: 2rem
+    right: 2rem;
     transition: right .5s;
-    z-index: 1051
+    z-index: 1051;
 }
 
 .toast-container.hidden {
@@ -2594,6 +2594,8 @@ a.badge-dark:focus,a.badge-dark.focus {
 	background-color: var(--superdark);
 	border-radius: 0.3rem;
 }
+
+
 
 
 
@@ -3551,6 +3553,11 @@ table-list .comma-list.overflowable:hover {
     margin-bottom: 1rem;
 }
 
+/* Increase height of performer "Details" text area */
+textarea#details {
+    min-height: 32ex;
+}
+
 
 
 
@@ -4364,6 +4371,10 @@ div.react-datepicker .react-datepicker__year-dropdown,div.react-datepicker .reac
     padding: 0;
 }
 
+.TruncatedText-tooltip .tooltip-inner {
+    max-width: 480px;
+}
+
 
 
 
@@ -4413,6 +4424,14 @@ div.react-datepicker .react-datepicker__year-dropdown,div.react-datepicker .reac
     padding: 1rem;
 }
 
+li.active .optional-field.missing .optional-field-content {
+    color: var(--misty_white);
+}
+
+li.active .optional-field.excluded .optional-field-content,li.active .optional-field.excluded .scene-link {
+    color: var(--misty_white);
+}
+
 
 
 
@@ -4430,19 +4449,6 @@ div.react-datepicker .react-datepicker__year-dropdown,div.react-datepicker .reac
 
 .StudioTagger-studio .studio-card img {
     background-color: var(--selection);
-}
-
-
-
-
-/* ===============<< PERFORMER TAGGER >>=============== */
-
-li.active .optional-field.missing .optional-field-content {
-    color: var(--misty_white);
-}
-
-li.active .optional-field.excluded .optional-field-content,li.active .optional-field.excluded .scene-link {
-    color: var(--misty_white);
 }
 
 
