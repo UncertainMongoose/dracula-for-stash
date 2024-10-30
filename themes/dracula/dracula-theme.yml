@@ -1,6 +1,6 @@
 name: Dracula Theme
 description: A dark theme for Stash based on the popular Dracula theme.
-version: 1.3.7
+version: 1.3.9
 ui:
   css:
     - dracula-theme.css 
