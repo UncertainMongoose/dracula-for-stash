@@ -21,7 +21,7 @@
 
 ## Team
 
-This theme is maintained by the following person and a bunch of [awesome contributors](https://github.com/dracula/foobar/graphs/contributors).
+This theme was created by the following person based on the work of a bunch of all the [awesome Dracula Theme contributors](https://github.com/dracula/foobar/graphs/contributors).
 
 | [![UncertainMongoose](https://github.com/uncertainmongoose.png?size=100)](https://github.com/uncertainmongoose) |
 | -------------------------------------------------------------------------------------------------------- |
@@ -29,10 +29,15 @@ This theme is maintained by the following person and a bunch of [awesome contrib
 
 &nbsp;
 
-## To Do
+## To-Do List
 
-- [X] Fix broken tag styling in tagger/edit views
-- [X] Improve text field clear button styling
+- [ ] **Tag Grid:** Make the `Toggle Favorite` (heart) button the top "layer"
+- [ ] **Tag Page:** Increase space between a Tag's description and parent/child tag lists
+- [ ] **Tag Page:** Decrease space between paragraph and ordered/unordered lists
+- [X] **Tagger:** Increase width of tagger video description tooltip
+- [X] **Repo:** Update README UI preview screenshot
+- [X] **Tagger:** Fix broken tag styling in tagger/edit views
+- [X] **Text Fields:** Improve text field clear button styling
 
 &nbsp;
 
