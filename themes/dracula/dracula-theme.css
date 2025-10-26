@@ -1784,6 +1784,19 @@ select.form-control:focus::-ms-value {
     color: var(--red);
 }
 
+.list-results-header.btn-toolbar {
+    background-color: var(--background);
+}
+
+.scene-list-toolbar.filtered-list-toolbar.btn-toolbar {
+    background-color: var(--background);
+}
+
+.scene-list-toolbar.filtered-list-toolbar div.filter-section {
+    border-radius: .45rem;
+    border: 1px solid var(--selection);
+}
+
 
 
 
