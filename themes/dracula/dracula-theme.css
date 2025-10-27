@@ -732,6 +732,20 @@ input[type="checkbox"] {
 
 
 
+/* ================<< SIDEBAR >>================ */
+
+.sidebar-section {
+    border-bottom: 1px solid var(--selection);
+}
+
+.sidebar-pane .sidebar {
+    background-color: var(--background);
+    border-right: var(--selection);
+}
+
+
+
+
 /* ================<< FORM CONTROL >>================ */
 
 .form-control {
